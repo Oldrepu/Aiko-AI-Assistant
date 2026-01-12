@@ -1,4 +1,8 @@
 # 🌸 Aiko: The Next-Gen Virtual AI Companion
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/e1286325-ef1d-4010-978c-0e053e2f2372
+></video>
+</div>
 
 Aiko is a highly interactive, premium virtual assistant built with **React 19** and **Vite**. She features a dynamic emotion system, multi-language support (English/Spanish), and real-time video expressions synchronized with AI responses.
 
