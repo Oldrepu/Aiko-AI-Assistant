@@ -1,6 +1,6 @@
 # 🌸 Aiko: The Next-Gen Virtual AI Companion
 <div align="center">
-  <video src=" "https://github.com/user-attachments/assets/e1286325-ef1d-4010-978c-0e053e2f2372" width="100%" autoplay loop muted></video>
+  <video src="https://github.com/user-attachments/assets/e1286325-ef1d-4010-978c-0e053e2f2372" width="100%" style="max-width: 100%;" autoplay loop muted playsinline></video>
 </div>
 
 
