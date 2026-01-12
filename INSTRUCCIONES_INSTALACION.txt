@@ -1,0 +1,59 @@
+🌸 AIKO - ASISTENTE VIRTUAL (GUÍA DE INSTALACIÓN) 🌸
+==================================================
+
+Esta guía te ayudará a instalar y configurar a Aiko en cualquier computadora desde cero.
+
+--- REQUISITOS PREVIOS (Software necesario) ---
+
+1. NODE.JS: Descarga e instala la versión LTS desde https://nodejs.org/
+   - Esto instalará también 'npm', necesario para manejar el proyecto.
+
+2. VS CODE (Opcional): Un editor de código recomendado para ver los archivos.
+
+3. LM STUDIO (Para modo Local): Si quieres que Aiko funcione sin internet.
+   - Descarga en https://lmstudio.ai/
+
+4. GOOGLE GEMINI API KEY (Para modo Online):
+   - Consigue una llave gratuita en https://aistudio.google.com/app/apikey
+
+--- PASOS PARA LA INSTALACIÓN ---
+
+1. DESCOMPRIMIR EL PROYECTO:
+   Copia la carpeta del proyecto 'Proyecto IA asistente' a tu nueva PC.
+
+2. INSTALAR DEPENDENCIAS:
+   Abre una terminal (PowerShell o CMD) dentro de la carpeta del proyecto y escribe:
+   > npm install
+
+   (Esto descargará todas las librerías necesarias como React, Lucide, etc.)
+
+3. INICIAR EL PROYECTO:
+   En la misma terminal, ejecuta:
+   > npm run dev
+
+4. ACCEDER A LA INTERFAZ:
+   Una vez que la terminal diga "Local: http://localhost:5173", abre esa dirección en tu navegador (Chrome recomendado).
+
+--- CONFIGURACIÓN DE AIKO ---
+
+UNA VEZ EN EL NAVEGADOR:
+1. Haz clic en el botón "Configure Aiko" en la barra lateral.
+2. Si usas GEMINI: Pega tu API KEY y selecciona un modelo (ej. gemini-1.5-flash).
+3. Si usas LM STUDIO (Local): 
+   - Abre LM Studio.
+   - Ve a la pestaña de "Local Server" (icono de doble flecha <->).
+   - Descarga un modelo (ej. Llama 3 o Qwen 2.5).
+   - Presiona 'Start Server' en el puerto 1234.
+   - En la web de Aiko, activa el interruptor "Local Mode".
+
+--- NOTAS SOBRE LOS VIDEOS (MUY IMPORTANTE) ---
+
+Para que las animaciones funcionen, debes tener los archivos de video en la carpeta 'public/'.
+Los archivos deben llamarse siguiendo este formato:
+- waifu_normal.mp4  (Obligatorio)
+- waifu_hello.mp4   (Para el saludo)
+- waifu_blush.mp4, waifu_dance.mp4, etc.
+
+*Consulta el archivo 'lista_acciones.txt' para ver todos los nombres soportados.*
+
+¡Disfruta de tu nueva compañera Aiko! 🌸✨

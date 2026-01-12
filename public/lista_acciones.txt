@@ -1,0 +1,35 @@
+LISTA DE ACCIONES Y EMOCIONES - PROYECTO AIKO
+==========================================
+
+Guarda cada video en formato .mp4 en la carpeta 'public' con el nombre exacto indicado abajo. 
+El sistema detectará automáticamente las etiquetas [TAG] o (TAG) tanto en INGLÉS como en ESPAÑOL.
+
+ESTRUCTURA: ETIQUETA (SINÓNIMOS) -> ARCHIVO: waifu_nombre.mp4
+
+--- EMOCIONES BÁSICAS ---
+[NORMAL]                       -> waifu_normal.mp4    (Estado neutro/idle)
+[BLUSH] / [SONROJO]            -> waifu_blush.mp4     (Sonrojada/Tímida)
+[ANGRY] / [ENFADADA]           -> waifu_angry.mp4     (Enfadada/Molesta)
+[EXCITED] / [EMOCIONADA]       -> waifu_excited.mp4   (Entusiasmada/Feliz)
+[SAD] / [TRISTE]               -> waifu_sad.mp4       (Triste/Melancólica)
+[THINKING] / [PENSANDO]        -> waifu_thinking.mp4  (Pensativa - Tareas técnicas)
+[SURPRISED] / [SORPRESA]       -> waifu_surprised.mp4 (Sorprendida)
+[WINK] / [GUIÑO]               -> waifu_wink.mp4      (Guiño/Pícara)
+
+--- ACCIONES ESPECIALES ---
+[BACK] / [ATRAS]               -> waifu_back.mp4      (De espaldas/Vueltita)
+[DANCE] / [BAILA]              -> waifu_dance.mp4     (Bailando)
+[HELLO] / [HOLA]               -> waifu_hello.mp4     (Saludo inicial)
+[TICKLES] / [COSQUILLAS]       -> waifu_tickles.mp4   (Reacción de cosquillas)
+[SLEEPY] / [SUENO]             -> waifu_sleepy.mp4    (Bostezo/Sueño)
+[EATING] / [COMIENDO]          -> waifu_eating.mp4    (Comiendo)
+[SHOCKED] / [ASUSTADA]         -> waifu_shocked.mp4   (Susto fuerte)
+[LAUGH] / [RISA]               -> waifu_laugh.mp4     (Risa)
+[WAVE] / [SALUDO]              -> waifu_wave.mp4      (Saludando con la mano)
+[PATS] / [CARICIAS]            -> waifu_pats.mp4      (Mimos en la cabeza)
+[CLAP] / [APLAUSO]             -> waifu_clap.mp4      (Aplaudiendo)
+
+--- NOTAS TÉCNICAS ---
+- El sistema es multilingüe: reconoce etiquetas en inglés y español.
+- Se limpian automáticamente del chat para que el usuario no las vea.
+- Puedes usar tanto [CORCHETES] como (PARÉNTESIS).
